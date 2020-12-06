@@ -110,7 +110,7 @@ async function makeMenu() {
     //let url = 'https://api.github.com/repos/'
     //    + u +'/305/contents/anim'
    
-    let url='https://github.com/afceyhan/deneme'
+    let url='https://api.github.com/repos/afceyhan/deneme'
     let resp = await fetch(url)
     if (!resp.ok) throw resp.statusText
     let a = await resp.json()
